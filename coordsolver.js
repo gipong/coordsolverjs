@@ -1,7 +1,7 @@
 /**
  * Created by gipong on 2017/6/24.
  *
- * provide an easy way for setting parameters in numeric.solveQP function
+ * provide an easy way for setting parameters in numeric function
  *
  */
 
