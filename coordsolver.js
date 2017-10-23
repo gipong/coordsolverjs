@@ -32,6 +32,7 @@
                 weight = 1;
             }
 
+            var m;
             while((m = regex.exec(equation)) !== null) {
                 if (m.index === regex.lastIndex) {
                     regex.lastIndex++;
@@ -71,6 +72,7 @@
             var constant = equation.split('>')[1];
             equation = equation.split('>')[0];
 
+            var m;
             while((m = regex.exec(equation)) !== null) {
                 if (m.index === regex.lastIndex) {
                     regex.lastIndex++;
